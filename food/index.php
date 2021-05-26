@@ -119,7 +119,7 @@
                             
                                 if(file_exists($name1)){
                                     echo '<span class="text-success">файл загружен</span><br>';
-                                    echo '<a href="http://docs.google.com/viewer?url='.$url.$name1.'">'.$name1.'</a> ';
+                                    echo '<a href="https://docs.google.com/viewer?url='.$url.$name1.'">'.$name1.'</a> ';
                                     echo '<button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#Modal_sm">
                                             <i class="fa fa-trash-o" aria-hidden="true"></i></button>';
                                 } else echo '<span class="text-danger">файл не загружен</span>';
@@ -133,7 +133,7 @@
                             
                                 if(file_exists($name2)){
                                     echo '<span class="text-success">файл загружен</span><br>';
-                                    echo '<a href="http://docs.google.com/viewer?url='.$url.$name2.'">'.$name2.'</a> ';
+                                    echo '<a href="https://docs.google.com/viewer?url='.$url.$name2.'">'.$name2.'</a> ';
                                     echo '<button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#Modal_ss">
                                             <i class="fa fa-trash-o" aria-hidden="true"></i></button>';
                                 } else echo '<span class="text-danger">файл не загружен</span>';
@@ -194,7 +194,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find1 == TRUE)&&($find2 == TRUE)&&($month1 == "09")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -217,7 +217,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find3 == TRUE)&&($find4 == TRUE)&&($month2 == "09")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -262,7 +262,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find1 == TRUE)&&($find2 == TRUE)&&($month1 == "10")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -285,7 +285,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find3 == TRUE)&&($find4 == TRUE)&&($month2 == "10")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -330,7 +330,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find1 == TRUE)&&($find2 == TRUE)&&($month1 == "11")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -353,7 +353,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find3 == TRUE)&&($find4 == TRUE)&&($month2 == "11")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -398,7 +398,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find1 == TRUE)&&($find2 == TRUE)&&($month1 == "12")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -421,7 +421,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find3 == TRUE)&&($find4 == TRUE)&&($month2 == "12")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -466,7 +466,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find1 == TRUE)&&($find2 == TRUE)&&($month1 == "01")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -489,7 +489,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find3 == TRUE)&&($find4 == TRUE)&&($month2 == "01")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -534,7 +534,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find1 == TRUE)&&($find2 == TRUE)&&($month1 == "02")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -557,7 +557,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find3 == TRUE)&&($find4 == TRUE)&&($month2 == "02")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -602,7 +602,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find1 == TRUE)&&($find2 == TRUE)&&($month1 == "03")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -625,7 +625,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find3 == TRUE)&&($find4 == TRUE)&&($month2 == "03")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -670,7 +670,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find1 == TRUE)&&($find2 == TRUE)&&($month1 == "04")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -693,7 +693,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find3 == TRUE)&&($find4 == TRUE)&&($month2 == "04")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -739,7 +739,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find1 == TRUE)&&($find2 == TRUE)&&($month1 == "05")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
@@ -762,7 +762,7 @@
                                         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                                         
                                         if (($find3 == TRUE)&&($find4 == TRUE)&&($month2 == "05")){ printf(
-                                            '<a href="http://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
+                                            '<a href="https://docs.google.com/viewer?url='.$url.'%s">%s</a><br>',
                                             rawurlencode($filename),
                                             $filename
                                           );
