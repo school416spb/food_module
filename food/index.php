@@ -38,22 +38,28 @@
                         if ($_POST['role'] == "1"){
                             $name = $_POST['date']."-sm.xlsx";  
                         } else $name = $_POST['date']."-ss.xlsx";
-                            
-                          if(is_uploaded_file($_FILES["filename"]["tmp_name"])){
+                          
+                        if(is_uploaded_file($_FILES["filename"]["tmp_name"])){
                               
-                                 $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+                            $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
             
-            				     move_uploaded_file($_FILES["filename"]["tmp_name"], $_FILES["filename"]["name"]);
-            				     rename($_FILES["filename"]["name"], $name);
-            				     echo '<p class="text-success"><i class="fa fa-check-circle" aria-hidden="true"></i> файл загружен!</span>';
-            				     echo '<meta http-equiv="refresh" content="1; url='.$url.'">';
+                            move_uploaded_file($_FILES["filename"]["tmp_name"], $_FILES["filename"]["name"]);
+                            $file_ext = pathinfo($_FILES["filename"]["name"], PATHINFO_EXTENSION);
 
-            			    }
+                            if ($file_ext == "xlsx") {
+                              rename($_FILES["filename"]["name"], $name);
+                              echo '<p class="text-success"><i class="fa fa-check-circle" aria-hidden="true"></i> файл загружен!</span>';
+                              echo '<meta http-equiv="refresh" content="1; url='.$url.'">';
+                            } else {
+                              unlink ($_FILES["filename"]["name"]);
+                              echo '<p class="text-danger"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> неверный тип файла!</span>';
+                            }
+            			      }
                             
                         } else echo '<p class="text-danger"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> неверный код подтверждения!</span>';
                         
                     }
-                
+
                 ?>
                 
                 <form method="POST" enctype="multipart/form-data">
