@@ -17,6 +17,8 @@
       $main_code = "12345";
       /*код доступа для удаления всех файлов директории*/
       $del_code = "12345";
+      /*имя директории в которой работает скрипт*/
+      $way = "docs";
     ?>
 
     <div class="container">
@@ -174,7 +176,7 @@
                             <tr><td>        
                                 <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -197,7 +199,7 @@
                                 <td>
                                     <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -242,7 +244,7 @@
                             <tr><td>        
                                 <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -265,7 +267,7 @@
                                 <td>
                                     <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -310,7 +312,7 @@
                             <tr><td>        
                                 <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -333,7 +335,7 @@
                                 <td>
                                     <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -378,7 +380,7 @@
                             <tr><td>        
                                 <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -401,7 +403,7 @@
                                 <td>
                                     <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -446,7 +448,7 @@
                             <tr><td>        
                                 <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -469,7 +471,7 @@
                                 <td>
                                     <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -514,7 +516,7 @@
                             <tr><td>        
                                 <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -537,7 +539,7 @@
                                 <td>
                                     <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -582,7 +584,7 @@
                             <tr><td>        
                                 <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -605,7 +607,7 @@
                                 <td>
                                     <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -650,7 +652,7 @@
                             <tr><td>        
                                 <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -673,7 +675,7 @@
                                 <td>
                                     <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -719,7 +721,7 @@
                             <tr><td>        
                                 <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -742,7 +744,7 @@
                                 <td>
                                     <?php
                                     
-                                    $dir  = '../food/';
+                                    $dir  = '../'.$way.'/';
                                     $files = array_diff( scandir( $dir), array('..', '.'));
                                     foreach($files AS $i => $filename) {
                                         
@@ -783,7 +785,7 @@
             <div class="col-12 text-center">
                 <hr>
                 <small class="text-secondary">2021 &copy; Давыдов Д.Э., <a href="mailto:davydov@school416spb.ru">davydov@school416spb.ru</a><br>
-                версия 1.21.5.25<br>
+                версия 1.21.5.26<br>
                 <?php
                 
                     $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -805,8 +807,8 @@
     
       if (isset($_POST['food_clear'])) {
           if (htmlspecialchars($_POST['psswd']) == $del_code){
-			if (file_exists('../food/'))
-				foreach (glob('../food/*.xlsx') as $file)
+			if (file_exists('../'.$way.'/'))
+				foreach (glob('../'.$way.'/*.xlsx') as $file)
 					unlink($file);
 			echo '<meta http-equiv="refresh" content="0; url='.$url.'">';
 		  }
@@ -842,8 +844,8 @@
     
       if (isset($_POST['del_sm'])) {
         if (htmlspecialchars($_POST['psswd']) == $main_code){
-			if (file_exists('../food/'.$name1))
-				foreach (glob('../food/'.$name1) as $file)
+			if (file_exists('../'.$way.'/'.$name1))
+				foreach (glob('../'.$way.'/'.$name1) as $file)
 					unlink($file);
 			echo '<meta http-equiv="refresh" content="0; url='.$url.'">';
 		}
@@ -878,8 +880,8 @@
     
       if (isset($_POST['del_ss'])) {
         if (htmlspecialchars($_POST['psswd']) == $main_code){
-			if (file_exists('../food/'.$name2))
-				foreach (glob('../food/'.$name2) as $file)
+			if (file_exists('../'.$way.'/'.$name2))
+				foreach (glob('../'.$way.'/'.$name2) as $file)
 					unlink($file);
 			echo '<meta http-equiv="refresh" content="0; url='.$url.'">';
 		}
